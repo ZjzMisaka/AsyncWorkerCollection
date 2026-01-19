@@ -42,7 +42,7 @@ namespace dotnetCampus.Threading
         /// </summary>
         public void Set()
         {
-            _source.SetResult(true);
+            _source.TrySetResult(true);
         }
 
         /// <summary>
